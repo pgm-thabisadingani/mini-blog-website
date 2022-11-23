@@ -1,0 +1,47 @@
+$teal: #008080;
+$lightGreen: #b9e7e7;
+.auth {
+  background-color: $lightGreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-size: 1.25rem;
+    color: $teal;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 400px;
+    background-color: white;
+    gap: 1.25rem;
+    input {
+      padding: 0.63rem;
+      border: none;
+      border-bottom: 1px solid gray;
+    }
+
+    button {
+      padding: 0.5rem;
+      background-color: $teal;
+      cursor: pointer;
+      color: white;
+    }
+
+    span {
+      font-size: 12px;
+      text-align: center;
+      a {
+        color: $teal;
+        text-decoration: underline;
+      }
+    }
+  }
+}
