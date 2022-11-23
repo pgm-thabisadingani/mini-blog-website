@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "echo \"No build specified\" && exit 1",
+    "build": "react-scripts build",
     "test": "echo \"No test specified\" && exit 1",
     "start": "node index.js"
   },
@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/pgm-thabisadingani/mini-blog-website/issues"
   },
-  "homepage": "https://github.com/pgm-thabisadingani/mini-blog-website#readme"
+  "homepage": "https://github.com/pgm-thabisadingani/mini-blog-website#readme",
+  "proxy": "http://localhost:8800/api/"
 }
