@@ -10,8 +10,7 @@
 - React-quill
 - Tailwindcss
 - Sass
-- Redux Toolkit
-- Redux-persist
+- Context API
 - Axios,
 - Moments
 - Dompurify
